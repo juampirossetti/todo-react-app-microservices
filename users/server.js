@@ -42,8 +42,8 @@ app.use((err, req, res, next) => {
   res.status(err.statusCode).json({ message: err.message, data: err.data });
 });
 
-app.listen(3000, () => {
-  console.log('Running server on port 3000!');
+app.listen(3001, () => {
+  console.log('Running server on port 3001!');
 });
 
 module.exports = app; // for testing

@@ -41,7 +41,7 @@ app.use((err, req, res, next) => {
   res.status(err.statusCode).json({ message: err.message, data: err.data });
 });
 
-app.listen(3001, () => {
+app.listen(3002, () => {
   console.log('Running server on port 3001!');
 });
 
