@@ -1,3 +1,4 @@
 users/node_modules/*
 todos/node_modules/*
 app/node_modules/*
+app/build/*

@@ -2,6 +2,11 @@
 
 we are creating a new MVP, this new platform must be scalable and flexible to support our continuous growth. We want to implement a micro-service architecture and the first part of the project is to develop a to-do web app with two sets of REST endpoints and the UI to display the data
 
+
+## Live Site URL
+
+http://react-app-todo-ms.s3-website-us-east-1.amazonaws.com/
+
 ## Running the services
 
 You have to clone the repository, install npm packages and run services.
