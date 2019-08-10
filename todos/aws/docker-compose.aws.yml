@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+ api: 
+   image: 614113963984.dkr.ecr.us-east-2.amazonaws.com/todos:latest
+   logging:
+     driver: awslogs
+     options: 
+       awslogs-group: greenmart-config-dev
+       awslogs-region: us-west-2
+       awslogs-stream-prefix: api-green-dev
+   ports:
+     - 3001:3000

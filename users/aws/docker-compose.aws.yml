@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+ api-users: 
+   image: 614113963984.dkr.ecr.us-west-2.amazonaws.com/users:latest
+   logging:
+     driver: awslogs
+     options: 
+       awslogs-group: users-config-dev
+       awslogs-region: us-west-2
+       awslogs-stream-prefix: api-users-dev
+   ports:
+     - 3000:3002
