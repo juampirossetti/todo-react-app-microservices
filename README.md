@@ -7,6 +7,9 @@ we are creating a new MVP, this new platform must be scalable and flexible to su
 
 http://react-app-todo-ms.s3-website-us-east-1.amazonaws.com/
 
+## RESTful API
+http://react-app-606020119.us-west-2.elb.amazonaws.com/api
+
 ## Running the services
 
 You have to clone the repository, install npm packages and run services.
